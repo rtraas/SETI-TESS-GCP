@@ -25,6 +25,8 @@ Doppler Drift Searches for Radio Technosignatures in Breakthrough Listen's Follo
 ## __[Bash Scripts](https://github.com/rtraas/turboCLOUD/tree/master/turbo_cloud/doppler_search)__
 All bash scripts are modified scripts from /datax/scratch/karenp/turbo_event at the Breakthrough Listen Data Center at UC-Berkeley
 
+A tutorial can be found __[here](https://github.com/rtraas/turboCLOUD/tree/master/turbo_cloud/doppler_search)__.
+
 `L_BandFDoppSearch.sh` --- Used to run turboSETI on all L_band files from the GCS bucket "bl_tess" mounted to the directory "/home/raffytraas14/seti_tess/" on the Google Compute Engine Instance
 
 `S_BandFDoppSearch.sh` --- Used to run turboSETI on all S_band files from the GCS bucket "bl_tess" mounted to the directory "/home/raffytraas14/seti_tess/" on the Google Compute Engine Instance
