@@ -11,11 +11,11 @@ Doppler Drift Searches for Radio Technosignatures in Breakthrough Listen's Follo
 
 ## Getting Started
 
-`turbo_seti_docker_tutorial.ipynb` --- A tutorial on using Docker to get your hands on `turbo_seti`
+__[`turbo_seti_docker_tutorial.ipynb`](https://github.com/rtraas/turboCLOUD/blob/master/turbo-seti-docker-tutorial.ipynb)__ --- A tutorial on using Docker to get your hands on `turbo_seti`
 
-`docker_run_template.txt` --- A text file containing a template of the command to build a container based off the `turbo_seti` __[docker](https://www.docker.com/)__ image 
+__[`docker_run_template.txt`](https://github.com/rtraas/turboCLOUD/blob/master/turbo_cloud/docker_run_template.txt)__ --- A text file containing a template of the command to build a container based off the `turbo_seti` __[docker](https://www.docker.com/)__ image 
 
-`GettingStarted.md` --- Where you should start if you're looking to get started with turboCLOUD.  It explains how to use all of the different functions as well as the ins and outs of turboCLOUD
+__[`GettingStarted.md`](https://github.com/rtraas/turboCLOUD/blob/master/GettingStarted.md)__ --- Where you should start if you're looking to get started with turboCLOUD.  It explains how to use all of the different functions as well as the ins and outs of turboCLOUD
 
 ## Python Scripts
 
