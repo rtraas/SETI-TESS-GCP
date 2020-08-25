@@ -28,6 +28,6 @@ RUN python3 -m pip install "dask[bag]" --upgrade
 RUN python3 -m pip install jupyter
 RUN python3 -m pip install git+https://github.com/UCBerkeleySETI/blimpy
 RUN python3 -m pip install turbo-seti
-RUN python3 -m pip install --upgrade Pillow
+RUN python3 -m pip install colorama
 
 
