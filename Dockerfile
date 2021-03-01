@@ -29,6 +29,7 @@ RUN python3 -m pip install jupyter
 RUN python3 -m pip install git+https://github.com/UCBerkeleySETI/blimpy
 RUN python3 -m pip install turbo-seti
 RUN python3 -m pip install colorama
+RUN python3 -m pip install bokeh
 RUN python3 -m pip install setigen
 
 
