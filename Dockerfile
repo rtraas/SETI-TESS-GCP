@@ -23,13 +23,17 @@ RUN python3 -m pip install pandas cython astropy matplotlib
 RUN python3 -m pip install astroquery
 RUN python3 -m pip install --only-binary=scipy scipy
 RUN python3 -m pip install pytest
-RUN python3 -m pip install dask xarray
+RUN python3 -m pip install dask 
+RUN pip3 install git+https://github.com/pydata/xarray
 RUN python3 -m pip install "dask[bag]" --upgrade
 RUN python3 -m pip install jupyter
-RUN python3 -m pip install git+https://github.com/UCBerkeleySETI/blimpy
-RUN python3 -m pip install turbo-seti
-RUN python3 -m pip install colorama
-RUN python3 -m pip install bokeh
-RUN python3 -m pip install setigen
+#RUN python3 -m pip install git+https://github.com/UCBerkeleySETI/blimpy
+RUN pip3 install git+https://github.com/UCBerkeleySETI/blimpy
+RUN pip3 install git+https://github.com/UCBerkeleySETI/turbo_seti
+#RUN python3 -m pip install turbo-seti
+#RUN python3 -m pip install colorama
+#RUN python3 -m pip install bokeh
+RUN pip3 install git+https://github.com/bbrzycki/setigen
+#RUN python3 -m pip install setigen
 
 
